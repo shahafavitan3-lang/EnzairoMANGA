@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#06080d">
-    <meta name="description" content="Enzairo — an original manga project. Explore the world and read Volume 1.">
-    <link rel="preload" as="image" href="pages/hero-enzean.png">
 
     <title>Enzairo — Official Manga</title>
 
@@ -28,17 +25,15 @@
             ENZAIRO
         </a>
 
-        <nav aria-label="Main navigation">
+        <nav>
             <a href="#about" data-i18n="navAbout">About</a>
             <a href="#world" data-i18n="navWorld">World</a>
             <a href="#volume" data-i18n="navVolume">Volume 1</a>
         </nav>
 
-        <div class="nav-tools">
-            <span id="clock" class="clock" aria-label="Israel time">00:00:00</span>
-            <button id="languageBtn" class="language-button" type="button" aria-label="Change language">עברית</button>
-            <button id="menuButton" class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
-        </div>
+        <button id="languageBtn" class="language-button">
+            עברית
+        </button>
 
     </header>
 
@@ -88,7 +83,7 @@
                 <div class="character-glow"></div>
 
                 <img
-                    src="pages/hero-enzean.png"
+                    src="pages/hero-enzan.png"
                     alt="Enzan"
                 >
 
@@ -314,10 +309,10 @@
 
                     </div>
 
-                    <div class="volume-actions">
-                        <a href="reader.html" class="button button-primary large"><span data-i18n="readNow">READ NOW</span><span class="arrow">→</span></a>
-                        <button id="detailsButton" class="details-button" type="button" data-i18n="details">VIEW DETAILS</button>
-                    </div>
+                    <a href="reader.html" class="button button-primary large">
+                        <span data-i18n="readNow">READ NOW</span>
+                        <span class="arrow">→</span>
+                    </a>
 
                 </div>
 
@@ -345,26 +340,6 @@
 
     </main>
 
-    <div id="volumeModal" class="modal" aria-hidden="true">
-        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-            <button id="modalClose" class="modal-close" type="button" aria-label="Close">×</button>
-            <div class="modal-grid">
-                <img class="modal-cover" src="pages/cover-volume1.png" alt="Enzairo Volume 1">
-                <div>
-                    <p class="section-label" data-i18n="volumeLabel">VOLUME 01</p>
-                    <h2 id="modalTitle" data-i18n="volumeTitle">The Beginning</h2>
-                    <p data-i18n="modalDescription">The first volume of Enzairo. Explore the story one page at a time.</p>
-                    <div class="modal-list" aria-label="Volume pages">
-                        <button class="modal-page" data-page="1">01</button><button class="modal-page" data-page="2">02</button><button class="modal-page" data-page="3">03</button><button class="modal-page" data-page="4">04</button>
-                        <button class="modal-page" data-page="5">05</button><button class="modal-page" data-page="6">06</button><button class="modal-page" data-page="7">07</button><button class="modal-page" data-page="8">08</button>
-                        <button class="modal-page" data-page="9">09</button><button class="modal-page" data-page="10">10</button><button class="modal-page" data-page="11">11</button><button class="modal-page" data-page="12">12</button>
-                        <button class="modal-page" data-page="13">13</button><button class="modal-page" data-page="14">14</button><button class="modal-page" data-page="15">15</button><button class="modal-page" data-page="16">16</button>
-                        <button class="modal-page" data-page="17">17</button><button class="modal-page" data-page="18">18</button><button class="modal-page" data-page="19">19</button><button class="modal-page" data-page="20">20</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- FOOTER -->
     <footer>
