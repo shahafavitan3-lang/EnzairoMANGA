@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#06080d">
+    <meta name="description" content="Enzairo — an original manga project. Explore the world and read Volume 1.">
+
+    <title>Enzairo — Official Manga</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="noise"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            ENZAIRO
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="#about" data-i18n="navAbout">About</a>
+            <a href="#world" data-i18n="navWorld">World</a>
+            <a href="#volume" data-i18n="navVolume">Volume 1</a>
+        </nav>
+
+        <div class="nav-tools">
+            <span id="clock" class="clock" aria-label="Israel time">00:00:00</span>
+            <button id="languageBtn" class="language-button" type="button" aria-label="Change language">עברית</button>
+            <button id="menuButton" class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content reveal">
+
+                <div class="eyebrow">
+                    <span></span>
+                    <p data-i18n="official">OFFICIAL MANGA PROJECT</p>
+                </div>
+
+                <h1>
+                    ENZAIRO
+                </h1>
+
+                <div class="hero-line"></div>
+
+                <p class="hero-subtitle" data-i18n="heroSubtitle">
+                    Four islands. Four cultures. One world on the edge of change.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="reader.html" class="button button-primary">
+                        <span data-i18n="readVolume">READ VOLUME 1</span>
+                        <span class="arrow">→</span>
+                    </a>
+
+                    <a href="#world" class="button button-secondary">
+                        <span data-i18n="explore">EXPLORE</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span data-i18n="scroll">SCROLL TO DISCOVER</span>
+                <div></div>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section about-section">
+
+            <div class="section-number">
+                01
+            </div>
+
+            <div class="section-heading reveal">
+
+                <p class="section-label" data-i18n="aboutLabel">
+                    ABOUT THE MANGA
+                </p>
+
+                <h2 data-i18n="aboutTitle">
+                    A world divided by power.
+                </h2>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+
+                    <p data-i18n="aboutText1">
+                        Enzairo takes place in a world divided between four islands,
+                        each with its own culture, abilities and history.
+                    </p>
+
+                    <p data-i18n="aboutText2">
+                        For generations, people born with supernatural abilities
+                        shaped the world. But one group believes that these powers
+                        are the source of every war.
+                    </p>
+
+                    <p data-i18n="aboutText3">
+                        Their answer is simple: create a world without magic.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card reveal">
+
+                    <div class="card-number">
+                        01
+                    </div>
+
+                    <h3 data-i18n="cardTitle">
+                        THE BEGINNING
+                    </h3>
+
+                    <p data-i18n="cardText">
+                        Enzan's journey begins on an island that became his only home.
+                    </p>
+
+                    <div class="card-line"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WORLD -->
+        <section id="world" class="section world-section">
+
+            <div class="section-number">
+                02
+            </div>
+
+            <div class="section-heading reveal">
+
+                <p class="section-label" data-i18n="worldLabel">
+                    THE WORLD
+                </p>
+
+                <h2 data-i18n="worldTitle">
+                    Four islands.
+                </h2>
+
+            </div>
+
+
+            <div class="world-image reveal">
+
+            </div>
+
+
+            <div class="islands-grid">
+
+                <article class="island-card reveal">
+
+                    <span>01</span>
+
+                    <h3 data-i18n="island1Title">
+                        WATER ISLAND
+                    </h3>
+
+                    <p data-i18n="island1Text">
+                        A land where water and ice abilities shape everyday life.
+                    </p>
+
+                </article>
+
+
+                <article class="island-card reveal">
+
+                    <span>02</span>
+
+                    <h3 data-i18n="island2Title">
+                        NINJA ISLAND
+                    </h3>
+
+                    <p data-i18n="island2Text">
+                        A society without magic, built on discipline and training.
+                    </p>
+
+                </article>
+
+
+                <article class="island-card reveal">
+
+                    <span>03</span>
+
+                    <h3 data-i18n="island3Title">
+                        JUNGLE ISLAND
+                    </h3>
+
+                    <p data-i18n="island3Text">
+                        A mysterious land filled with nature, healing and ancient knowledge.
+                    </p>
+
+                </article>
+
+
+                <article class="island-card reveal">
+
+                    <span>04</span>
+
+                    <h3 data-i18n="island4Title">
+                        THE EMPTY ISLAND
+                    </h3>
+
+                    <p data-i18n="island4Text">
+                        An abandoned battlefield where warriors once fought for their islands.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- VOLUME -->
+        <section id="volume" class="section volume-section">
+
+            <div class="section-number">
+                03
+            </div>
+
+            <div class="volume-layout">
+
+                <div class="volume-cover reveal">
+
+                    <div class="cover-shadow"></div>
+
+                </div>
+
+
+                <div class="volume-info reveal">
+
+                    <p class="section-label" data-i18n="volumeLabel">
+                        VOLUME 01
+                    </p>
+
+                    <h2 data-i18n="volumeTitle">
+                        The Beginning
+                    </h2>
+
+                    <p data-i18n="volumeDescription">
+                        The first chapter of Enzairo's journey.
+                        Discover the world and take the first step into the unknown.
+                    </p>
+
+                    <div class="volume-meta">
+
+                        <div>
+                            <span data-i18n="pagesLabel">PAGES</span>
+                            <strong>20</strong>
+                        </div>
+
+                        <div>
+                            <span data-i18n="chapterLabel">CHAPTER</span>
+                            <strong>01</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="volume-actions">
+                        <a href="reader.html" class="button button-primary large"><span data-i18n="readNow">READ NOW</span><span class="arrow">→</span></a>
+                        <button id="detailsButton" class="details-button" type="button" data-i18n="details">VIEW DETAILS</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL CTA -->
+        <section class="final-section reveal">
+
+            <p data-i18n="finalLabel">
+                THE JOURNEY BEGINS
+            </p>
+
+            <h2>
+                ENZAIRO
+            </h2>
+
+            <a href="reader.html" class="final-button" data-i18n="startReading">
+                START READING
+            </a>
+
+        </section>
+
+    </main>
+
+    <div id="volumeModal" class="modal" aria-hidden="true">
+        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button id="modalClose" class="modal-close" type="button" aria-label="Close">×</button>
+            <div class="modal-grid">
+                <div>
+                    <p class="section-label" data-i18n="volumeLabel">VOLUME 01</p>
+                    <h2 id="modalTitle" data-i18n="volumeTitle">The Beginning</h2>
+                    <p data-i18n="modalDescription">The first volume of Enzairo. Explore the story one page at a time.</p>
+                    <div class="modal-list" aria-label="Volume pages">
+                        <button class="modal-page" data-page="1">01</button><button class="modal-page" data-page="2">02</button><button class="modal-page" data-page="3">03</button><button class="modal-page" data-page="4">04</button>
+                        <button class="modal-page" data-page="5">05</button><button class="modal-page" data-page="6">06</button><button class="modal-page" data-page="7">07</button><button class="modal-page" data-page="8">08</button>
+                        <button class="modal-page" data-page="9">09</button><button class="modal-page" data-page="10">10</button><button class="modal-page" data-page="11">11</button><button class="modal-page" data-page="12">12</button>
+                        <button class="modal-page" data-page="13">13</button><button class="modal-page" data-page="14">14</button><button class="modal-page" data-page="15">15</button><button class="modal-page" data-page="16">16</button>
+                        <button class="modal-page" data-page="17">17</button><button class="modal-page" data-page="18">18</button><button class="modal-page" data-page="19">19</button><button class="modal-page" data-page="20">20</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            ENZAIRO
+        </div>
+
+        <p data-i18n="footer">
+            An original manga project.
+        </p>
+
+        <p class="copyright">
+            © 2026 Enzairo
+        </p>
+
+    </footer>
+
+
+    <script src="reader.js"></script>
+
+</body>
+</html>
